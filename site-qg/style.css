@@ -193,24 +193,35 @@ margin-top:3em;
     margin-top:3em;
 }
 
-.pictos{
-    font-size: 2em;
-}
 
 .bi.bi-heart-fill{
     color:#242424;
+    font-size: 1.5em ;
+
 }
 
 .bi.bi-heart-fill:hover{
     color:#FF69B4;
+    font-size: 1.5em ;
+
 }
 
 .bi.bi-chat-dots-fill{
     color:#242424;
+    font-size: 1.5em ;
+
+}
+
+
+.bi.bi-heart-fill:visited{
+    color:#FF69B4;
+    font-size: 1.5em ;
+
 }
 
 .bi.bi-chat-dots-fill:hover{
     color:#0000A3;
+    font-size: 1.5em ;
 }
 
 /* footer */

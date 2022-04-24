@@ -38,14 +38,14 @@
 
     <div class="d-flex flex-column align-items-center">
     <br>
-    <a href="index.html"><img src="img/leQG_logo.png" width="500" class=" invert img-fluid  " alt="Accueil LE QG"></a>
+    <a href="index.php"><img src="img/leQG_logo.png" width="500" class=" invert img-fluid  " alt="Accueil LE QG"></a>
     </div>
 
     <div class="row d-none d-sm-block">
     <div class="res  align-items-center ">
         <a class="home " href="#" target="blank"><img class="invert"  src="img/accueil.png" alt="Accueil" width="50"></a>
         <a class="chat" href="#" target="blank"><img  class="invert"  src="img/chat.png" alt="Chat" width="50"></a>
-        <a class="connexion" href="#" target="blank"><img class="invert"  src="img/sidentifier.png" alt="Connexion" width="50"></a>
+        <a class="connexion" href="seconnecter.php" target="blank"><img class="invert"  src="img/sidentifier.png" alt="Connexion" width="50"></a>
     </div>
   </div>
     </nav>
@@ -125,7 +125,8 @@
 
 </nav>
 
-  <!-- --- Pensez a relier les éléments fictifs au vrais de la BD -->
+  <!-- --- Pensez a relier les éléments fictifs au vrais de la BD 
+++ voir comment faire le bouton like et l'ajout de commentaire -->
 
 <div class="card mb-3" style="max-width: 70em;">
   <div class="row no-gutters">
@@ -138,8 +139,8 @@
         <p class="card-text"><small class="text-muted">Date et lieu</small></p>
         <p class="card-text">Description du bon plan</p>
         <div class="pictos">
-              <i class="bi bi-chat-dots-fill"></i>
-              <i class="bi bi-heart-fill"></i>
+              <i class="bi bi-chat-dots-fill btn" href="#"></i>
+              <i class="bi bi-heart-fill btn" href="https://www.google.com/" target="blank"></i>
         </div>
       </div>
     </div>
@@ -154,6 +155,10 @@
         <h5 class="card-title">Nom du bon plan</h5>
         <p class="card-text"><small class="text-muted">Date et lieu</small></p>
         <p class="card-text">Description du bon plan</p>
+        <div class="pictos">
+              <i class="bi bi-chat-dots-fill btn" href="#"></i>
+              <i class="bi bi-heart-fill btn" href="https://www.google.com/" target="blank"></i>
+        </div>
       </div>
     </div>
     <div class="col-md-4">
@@ -171,20 +176,20 @@
 
   <!-------- SCROLL ---------->
 
-      <div class="scroll">
+      <div class="scroll btn">
         <img src="img/top.png" alt="retourner en haut de la page" />
       </div>
 
-    <!-------- FILTRER ---------->
+    <!-------- FILTRER - voir comment on fait ----------> 
 
-      <div class="filter">
-        <img src="img/filter.png" alt="filtrer les bons plans" />
+      <div class="filter btn">
+        <img src="img/filter.png" href="#" alt="filtrer les bons plans" />
       </div>
 
-        <!-------- AJOUTER BON PLAN ---------->
+        <!-------- AJOUTER BON PLAN  voir comment on fait ---------->
 
-      <div class="add">
-        <img src="img/add.png" alt="ajouter un bon plan" />
+      <div class="add btn ">
+        <img src="img/add.png" href="#" alt="ajouter un bon plan" />
       </div>
 
 </section>
@@ -233,7 +238,7 @@
         </div>
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2022 Copyright LE QG  - IMAC 1 LLMNP -  <a href="mentionslegales.html" target="blank">Mentions Légales</a>
+        <div class="footer-copyright text-center py-3">© 2022 Copyright LE QG  - IMAC 1 LLMNP -  <a href="#" target="blank">Mentions Légales</a>
         </div>
         <!-- Copyright -->
     </div>
